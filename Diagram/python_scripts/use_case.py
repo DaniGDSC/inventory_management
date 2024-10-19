@@ -1,3 +1,4 @@
+import graphviz
 from graphviz import Digraph
 
 # Initialize the Digraph
