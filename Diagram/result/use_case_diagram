@@ -1,0 +1,30 @@
+digraph UseCaseDiagram {
+	rankdir=LR size="10,7"
+	node [color=lightblue2 fontname=Helvetica shape=ellipse style=filled]
+	subgraph cluster_system {
+		fontsize=20 label="Inventory Management System"
+		color=lightgrey fillcolor=white style="rounded,filled"
+		UC1 [label="Check-In Inventory"]
+		UC2 [label="Check-Out Inventory"]
+		UC3 [label="Transfer Inventory"]
+		UC4 [label="Approve Purchase Orders"]
+		UC5 [label="Generate Reports"]
+		UC6 [label="Set Reordering Thresholds"]
+		UC7 [label="View Purchase Orders"]
+		UC8 [label="Update Order Status"]
+		UC9 [label="Communicate with Warehouse"]
+	}
+	node [shape=plaintext]
+	Actor1 [label="Warehouse Staff"]
+	Actor2 [label=Manager]
+	Actor3 [label=Supplier]
+	Actor1 -> UC1
+	Actor1 -> UC2
+	Actor1 -> UC3
+	Actor2 -> UC4
+	Actor2 -> UC5
+	Actor2 -> UC6
+	Actor3 -> UC7
+	Actor3 -> UC8
+	Actor3 -> UC9
+}
