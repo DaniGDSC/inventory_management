@@ -1,5 +1,5 @@
 digraph ER_Diagram {
-	rankdir=LR size="8,5"
+	rankdir=LR size=14
 	node [shape=rectangle]
 	User [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
 <TR><TD BGCOLOR="lightblue"><B>User</B></TD></TR>

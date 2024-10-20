@@ -5,7 +5,7 @@ import os
 def create_er_diagram():
     # Create a new directed graph
     dot = Digraph('ER_Diagram', format='png')
-    dot.attr(rankdir='LR', size='8,5')
+    dot.attr(rankdir='LR', size='14')
     dot.attr('node', shape='rectangle')
 
     # Define entities with their attributes
@@ -53,7 +53,7 @@ def create_er_diagram():
         dot.edge(parent, child, label=label)
 
     # Specify the output file path inside the result folder
-    output_file_path = os.path.join('F:/inventory_management-1/Diagram/result', 'user_diagram')
+    output_file_path = os.path.join('F:/inventory_management-1/Diagram/result', 'ER_diagram')
 
     # Render the diagram to a file
     dot.render(output_file_path, view=False)
