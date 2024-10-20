@@ -1,5 +1,5 @@
 digraph ER_Diagram {
-	rankdir=LR size=15
+	rankdir=LR size=20
 	node [shape=plaintext]
 	User [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>User</B></TD></TR><TR><TD ALIGN="LEFT" PORT="UserID_PK"><b>UserID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Username">Username</TD></TR><TR><TD ALIGN="LEFT" PORT="PasswordHash">PasswordHash</TD></TR><TR><TD ALIGN="LEFT" PORT="Role">Role</TD></TR><TR><TD ALIGN="LEFT" PORT="ContactInfo">ContactInfo</TD></TR></TABLE>>]
 	Product [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>Product</B></TD></TR><TR><TD ALIGN="LEFT" PORT="ProductID_PK"><b>ProductID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Name">Name</TD></TR><TR><TD ALIGN="LEFT" PORT="Description">Description</TD></TR><TR><TD ALIGN="LEFT" PORT="CategoryID_FK"><i>CategoryID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="SupplierID_FK"><i>SupplierID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="QuantityInStock">QuantityInStock</TD></TR><TR><TD ALIGN="LEFT" PORT="ReorderLevel">ReorderLevel</TD></TR><TR><TD ALIGN="LEFT" PORT="LocationID_FK"><i>LocationID</i> (FK)</TD></TR></TABLE>>]

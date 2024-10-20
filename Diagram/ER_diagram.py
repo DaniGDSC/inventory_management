@@ -10,7 +10,7 @@ def create_er_diagram():
     
     # Create a new directed graph
     dot = Digraph('ER_Diagram', format='png')
-    dot.attr(rankdir='LR', size='15')
+    dot.attr(rankdir='LR', size='20')
     dot.attr('node', shape='plaintext')
 
     # Define entities with their attributes
