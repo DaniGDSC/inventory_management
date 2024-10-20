@@ -1,0 +1,101 @@
+ProductID,Name,Description,QuantityInStock,ReorderLevel,CategoryID,SupplierID,LocationID
+1,Wireless Mouse,Ergonomic wireless mouse with USB receiver.,150,50,1,2,5
+2,Mechanical Keyboard,Backlit mechanical keyboard with blue switches.,120,40,1,3,8
+3,LED Monitor,24-inch full HD LED monitor with adjustable stand.,75,25,1,5,12
+4,USB-C Charger,Fast charging USB-C wall adapter.,200,60,2,1,15
+5,Noise-Cancelling Headphones,Over-ear noise-cancelling headphones with Bluetooth.,50,20,1,4,18
+6,Smartphone Case,Slim protective case for smartphones.,300,100,22,2,20
+7,Wireless Earbuds,True wireless earbuds with charging case.,80,30,1,4,25
+8,Laptop Backpack,Water-resistant laptop backpack with multiple compartments.,60,20,29,6,30
+9,External Hard Drive,1TB external hard drive with USB 3.0.,90,30,165,1,35
+10,Graphic Tablet,Digital drawing tablet with pressure sensitivity.,40,15,17,7,40
+11,Action Camera,4K action camera with waterproof housing.,55,20,25,8,42
+12,Portable Speaker,Bluetooth portable speaker with 12-hour battery life.,130,50,37,9,45
+13,Smart Watch,Fitness tracking smart watch with heart rate monitor.,70,25,162,4,48
+14,Wireless Router,Dual-band wireless router with parental controls.,85,30,38,10,50
+15,Gaming Console,Latest generation gaming console with 1TB storage.,30,10,26,5,3
+16,Electric Kettle,1.7L electric kettle with auto shut-off.,110,40,15,11,6
+17,Stainless Steel Cookware Set,10-piece stainless steel cookware set.,35,15,15,12,9
+18,Air Purifier,HEPA filter air purifier for rooms up to 500 sq ft.,45,15,57,13,12
+19,Robot Vacuum Cleaner,Smart robot vacuum with app control.,25,10,57,14,15
+20,Espresso Machine,Automatic espresso machine with milk frother.,20,5,15,15,18
+21,Digital SLR Camera,24MP DSLR camera with 18-55mm lens kit.,40,10,25,16,21
+22,Tripod Stand,Adjustable tripod stand for cameras.,150,50,25,17,24
+23,Lens Cleaning Kit,Complete cleaning kit for camera lenses.,250,100,25,18,27
+24,Smart Thermostat,Programmable smart thermostat with Wi-Fi.,60,20,41,14,30
+25,LED Light Bulbs,Pack of 6 energy-efficient LED bulbs.,500,200,28,19,33
+26,Electric Drill,Cordless electric drill with rechargeable battery.,70,25,19,20,36
+27,Tool Set,100-piece professional tool set.,45,15,19,21,39
+28,Pressure Washer,Electric pressure washer with 1800 PSI.,30,10,19,22,41
+29,Lawn Mower,Cordless electric lawn mower with 40V battery.,20,5,60,23,44
+30,Garden Hose,Expandable garden hose 100 ft.,100,30,60,24,47
+31,Smartphone,Latest model smartphone with 128GB storage.,80,25,23,1,2
+32,Tablet,10-inch tablet with retina display.,60,20,24,1,4
+33,Laptop,15-inch laptop with Intel i7 processor.,50,15,24,1,6
+34,Wireless Charger,Qi-certified wireless charging pad.,180,60,22,2,8
+35,Memory Card,128GB microSD memory card.,200,80,165,25,10
+36,HDMI Cable,6 ft high-speed HDMI cable.,400,150,22,26,12
+37,Bluetooth Speaker,Portable Bluetooth speaker with deep bass.,140,50,37,27,14
+38,Desktop Computer,All-in-one desktop with 27-inch display.,30,10,24,1,16
+39,Inkjet Printer,Wireless all-in-one inkjet printer.,65,20,51,28,18
+40,Laser Printer,Monochrome laser printer for office use.,50,15,51,29,20
+41,Smart TV,55-inch 4K Ultra HD smart TV.,40,10,36,30,22
+42,Sound Bar,2.1 channel sound bar with subwoofer.,75,25,37,31,24
+43,Bluetooth Headset,Wireless headset with noise cancellation.,90,30,1,32,26
+44,Webcam,1080p HD webcam with built-in microphone.,120,40,1,33,28
+45,Office Chair,Ergonomic office chair with lumbar support.,55,15,46,34,30
+46,Standing Desk,Adjustable height standing desk.,25,5,46,35,32
+47,LED Desk Lamp,Dimmable LED desk lamp with USB charging.,130,50,28,36,34
+48,Shredder,Cross-cut paper shredder.,80,30,125,37,36
+49,Laminator,A4 thermal laminator machine.,60,20,125,38,38
+50,Projector,1080p home theater projector.,45,15,68,39,40
+51,Router Bits Set,15-piece router bits set for woodworking.,100,30,19,40,42
+52,Sewing Machine,Computerized sewing machine with 60 stitches.,35,10,44,41,44
+53,Guitar,Acoustic guitar with spruce top.,70,25,16,42,46
+54,Keyboard Piano,88-key digital piano with weighted keys.,40,10,16,43,48
+55,Drum Set,5-piece drum set with cymbals.,20,5,16,44,1
+56,Violin,Full-size beginner violin with case.,60,20,16,45,3
+57,Microphone,USB condenser microphone for recording.,150,50,37,46,5
+58,Headphone Stand,Aluminum headphone stand holder.,200,80,1,47,7
+59,SSD Drive,500GB solid-state drive.,80,30,165,48,9
+60,Graphics Card,High-performance graphics card with 8GB VRAM.,25,5,50,49,11
+61,Motherboard,ATX motherboard with latest chipset.,45,15,50,50,13
+62,Processor,8-core desktop processor.,35,10,50,1,15
+63,RAM Memory,16GB DDR4 RAM module.,90,30,50,2,17
+64,Power Supply,750W modular power supply.,60,20,50,3,19
+65,Computer Case,Mid-tower PC case with tempered glass.,50,15,50,4,21
+66,CPU Cooler,Liquid CPU cooler with RGB lighting.,70,25,50,5,23
+67,Monitor Stand,Dual monitor desk mount.,110,40,1,6,25
+68,Surge Protector,12-outlet surge protector with USB ports.,200,80,22,7,27
+69,Cable Organizer,Cable management sleeve.,300,100,64,8,29
+70,3D Printer,Desktop 3D printer with filament.,15,5,153,9,31
+71,Filament,1kg spool of PLA filament.,120,50,153,10,33
+72,VR Headset,Virtual reality headset with controllers.,25,10,154,11,35
+73,Drone,Quadcopter drone with 4K camera.,30,10,155,12,37
+74,Gaming Chair,Adjustable gaming chair with footrest.,60,20,15,13,39
+75,Coffee Maker,12-cup programmable coffee maker.,90,30,15,14,41
+76,Blender,High-speed countertop blender.,80,25,15,15,43
+77,Air Fryer,Digital air fryer with 5.8-quart capacity.,70,20,15,16,45
+78,Slow Cooker,6-quart programmable slow cooker.,65,20,15,17,47
+79,Toaster Oven,Convection toaster oven with air fry.,50,15,15,18,49
+80,Microwave Oven,Countertop microwave oven with smart sensor.,55,15,15,19,1
+81,Vacuum Cleaner,Cordless stick vacuum cleaner.,60,20,57,20,3
+82,Hair Dryer,Professional ionic hair dryer.,150,50,76,21,5
+83,Electric Toothbrush,Rechargeable electric toothbrush with timer.,200,80,42,22,7
+84,Shower Head,High-pressure rainfall shower head.,250,100,89,23,9
+85,Bath Towels,6-piece cotton bath towel set.,300,120,84,24,11
+86,Bed Sheets,Queen-size microfiber bed sheet set.,180,60,84,25,13
+87,Pillow,Memory foam pillow with cooling gel.,220,80,84,26,15
+88,Mattress Pad,Hypoallergenic mattress pad cover.,150,50,84,27,17
+89,Area Rug,5x7 ft modern area rug.,70,25,85,28,19
+90,Wall Clock,Silent non-ticking wall clock.,130,50,87,29,21
+91,Picture Frame,Set of 4 wooden picture frames.,160,60,87,30,23
+92,Desk Organizer,Mesh desk organizer with drawers.,200,80,32,31,25
+93,Notebook,Hardcover ruled notebook.,400,150,32,32,27
+94,Ballpoint Pens,Pack of 50 black ink pens.,600,200,32,33,29
+95,Printer Paper,500 sheets of 20lb copy paper.,500,200,32,34,31
+96,Sticky Notes,12 pads of sticky notes.,700,300,32,35,33
+97,Envelopes,Box of 100 standard envelopes.,450,150,32,36,35
+98,Stapler,Standard office stapler with staples.,150,50,32,37,37
+99,Calculator,Basic 8-digit pocket calculator.,250,100,32,38,39
+100,Paper Clips,Pack of 1000 paper clips.,800,300,32,39,41

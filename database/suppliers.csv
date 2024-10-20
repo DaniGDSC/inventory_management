@@ -1,36 +1,36 @@
 SupplierID,Name,ContactInfo,Address
-1,Global Tech Supplies,contact@globaltechsupplies.com,123 Tech Park, Silicon Valley, CA
-2,Prime Industrial Co.,info@primeindustrialco.com,456 Industrial Ave, Detroit, MI
-3,Green Earth Materials,support@greenearthmaterials.com,789 Eco Lane, Portland, OR
+1,Global Tech Supplies,contact@globaltech.com,123 Tech Park, Silicon Valley, CA
+2,Prime Industrial Co.,info@primeindustrial.com,456 Industrial Ave, Detroit, MI
+3,Green Earth Materials,support@greenearth.com,789 Eco Lane, Portland, OR
 4,Superior Steel Ltd.,sales@superiorsteel.com,321 Forge St, Pittsburgh, PA
-5,Urban Farming Solutions,contact@urbanfarmingsolutions.com,654 Harvest Rd, Des Moines, IA
+5,Urban Farming Solutions,contact@urbanfarming.com,654 Harvest Rd, Des Moines, IA
 6,Quality Plastics Inc.,info@qualityplastics.com,987 Polymer Blvd, Akron, OH
 7,Advanced Electronics,support@advancedelectronics.com,159 Circuit Dr, Austin, TX
 8,NextGen Textiles,sales@nextgentextiles.com,753 Fabric Way, Greensboro, NC
 9,Allied Chemicals,contact@alliedchemicals.com,852 Chemical Loop, Baton Rouge, LA
 10,Precision Tools Corp.,info@precisiontools.com,951 Machinist Ln, Milwaukee, WI
 11,Innovative Packaging,support@innovativepackaging.com,135 Wrap Ave, Memphis, TN
-12,Solaris Energy Systems,sales@solarisenergysystems.com,246 Solar Dr, Phoenix, AZ
-13,Global Logistics Partners,contact@globallogisticspartners.com,369 Cargo Rd, Miami, FL
+12,Solaris Energy Systems,sales@solarisenergy.com,246 Solar Dr, Phoenix, AZ
+13,Global Logistics Partners,contact@globallogistics.com,369 Cargo Rd, Miami, FL
 14,Evergreen Timber Co.,info@evergreentimber.com,147 Lumber St, Seattle, WA
 15,Metro Metals,support@metrometals.com,258 Alloy Blvd, Cleveland, OH
-16,Pure Water Solutions,sales@purewatersolutions.com,369 Aqua Ln, Orlando, FL
+16,Pure Water Solutions,sales@purewater.com,369 Aqua Ln, Orlando, FL
 17,Apex Automotive Parts,contact@apexautomotive.com,741 Motorway, Detroit, MI
-18,Fusion Glassworks,info@fusionglassworks.com,852 Crystal Ct, Corning, NY
+18,Fusion Glassworks,info@fusionglass.com,852 Crystal Ct, Corning, NY
 19,Alpha Pharmaceuticals,support@alphapharma.com,963 Health Rd, Boston, MA
 20,Bright Lights Lighting,sales@brightlights.com,174 Beacon St, Las Vegas, NV
-21,Global Paper Products,contact@globalpaperproducts.com,285 Pulp Rd, Savannah, GA
+21,Global Paper Products,contact@globalpaper.com,285 Pulp Rd, Savannah, GA
 22,Vertex Aerospace,info@vertexaerospace.com,396 Flight Path, Wichita, KS
 23,Mountain Fresh Produce,support@mountainfresh.com,507 Orchard Ave, Boise, ID
 24,Elite Furniture,sales@elitefurniture.com,618 Comfort St, High Point, NC
 25,Digital World Electronics,contact@digitalworld.com,729 Tech Ave, San Jose, CA
-26,Harvest Grain Mills,info@harvestgrainmills.com,830 Mill Rd, Minneapolis, MN
+26,Harvest Grain Mills,info@harvestgrain.com,830 Mill Rd, Minneapolis, MN
 27,Superior Cement,support@superiorcement.com,941 Build Blvd, Dallas, TX
 28,National Plastics,sales@nationalplastics.com,152 Polymer St, Baton Rouge, LA
 29,Blue Ocean Seafood,contact@blueoceanseafood.com,263 Fisherman's Wharf, Seattle, WA
 30,Prime Textiles,info@primetextiles.com,374 Cotton Ln, Atlanta, GA
 31,Frontier Mining Co.,support@frontiermining.com,485 Mineral Rd, Denver, CO
-32,Eco Home Goods,sales@ecohomegoods.com,596 Greenway Blvd, Portland, OR
+32,Eco Home Goods,sales@ecohome.com,596 Greenway Blvd, Portland, OR
 33,Urban Apparel,contact@urbanapparel.com,607 Fashion Ave, New York, NY
 34,Pinnacle Paper,support@pinnaclepaper.com,718 Pulp St, Savannah, GA
 35,Vision Optics,sales@visionoptics.com,829 Lens Dr, Rochester, NY
@@ -48,4 +48,54 @@ SupplierID,Name,ContactInfo,Address
 47,Precision Medical Devices,contact@precisionmedical.com,341 Wellness Blvd, Boston, MA
 48,Urban Timber,support@urbantimber.com,452 Woodwork Ave, Portland, OR
 49,Next Level Sportswear,sales@nextlevelsportswear.com,563 Athlete Dr, Denver, CO
-50,EcoTech Recycling,info@ecotechrecycling.com,674 Recycle Rd, San Jose, CA
+50,EcoTech Recycling,info@ecotech.com,674 Recycle Rd, San Jose, CA
+51,Sunshine Organic Farms,info@sunshinefarms.com,213 Orchard Rd, Napa Valley, CA
+52,Pioneer Electronics,support@pioneerelectronics.com,112 Circuit Rd, Silicon Valley, CA
+53,Summit Logistics,sales@summitlogistics.com,700 Distribution Ln, Houston, TX
+54,Premier Paper Products,contact@premierpaper.com,853 Print Ave, Charleston, SC
+55,Falcon Industrial,support@falconindustrial.com,763 Warehouse Dr, Detroit, MI
+56,Ridgeway Timber,sales@ridgewaytimber.com,921 Forest Rd, Seattle, WA
+57,Greenwave Energy Solutions,info@greenwaveenergy.com,364 Solar Ave, Phoenix, AZ
+58,Arctic Cooling Systems,contact@arcticcooling.com,456 Chill St, Anchorage, AK
+59,TechFlow Computing,sales@techflowcomputing.com,332 Silicon Way, San Jose, CA
+60,PrimeSteel Forgings,info@primesteel.com,990 Forge Rd, Pittsburgh, PA
+61,Zenith Automotive,support@zenithauto.com,200 Engine Ln, Detroit, MI
+62,Clear View Optics,sales@clearviewoptics.com,854 Lens St, Boulder, CO
+63,Rapid Packaging Solutions,info@rapidpackaging.com,532 Pack Rd, Memphis, TN
+64,Metro Auto Parts,sales@metroauto.com,630 Motorway, Detroit, MI
+65,Evolution Textiles,support@evolutiontextiles.com,421 Fabric Ln, Atlanta, GA
+66,Pinnacle Steel,sales@pinnaclesteel.com,741 Alloy Blvd, Cleveland, OH
+67,Suncoast Seafoods,contact@suncoastseafoods.com,364 Pier Ave, Miami, FL
+68,GreenBuild Materials,info@greenbuildmaterials.com,873 Build St, Seattle, WA
+69,Elite Home Products,support@elitehomeproducts.com,110 Comfort Rd, High Point, NC
+70,Trinity Pharmaceuticals,sales@trinitypharma.com,693 Health Way, Boston, MA
+71,ClearTech Plastics,support@cleartechplastics.com,444 Polymer Blvd, Akron, OH
+72,Global Woodworks,info@globalwoodworks.com,369 Timber Ln, Portland, OR
+73,BlueSky Beverages,sales@blueskybeverages.com,547 Refreshment Blvd, Atlanta, GA
+74,Pinnacle Electronics,support@pinnacleelectronics.com,123 Circuit Dr, Austin, TX
+75,Vertex Industrial,sales@vertexindustrial.com,951 Machinist Ln, Milwaukee, WI
+76,Apex Medical Devices,support@apexmedical.com,879 Wellness Rd, Boston, MA
+77,Precision Fabrics,sales@precisionfabrics.com,520 Fabric Ave, Greensboro, NC
+78,EnergiTech Solutions,info@energitech.com,763 Power Dr, Phoenix, AZ
+79,GreenPath Foods,support@greenpathfoods.com,856 Orchard Rd, Napa Valley, CA
+80,NexGen Auto Parts,contact@nexgenauto.com,257 Engine Rd, Detroit, MI
+81,Clearwater Seafoods,sales@clearwaterseafoods.com,145 Pier St, Seattle, WA
+82,Sunset Electronics,info@sunsetelectronics.com,943 Silicon Blvd, San Francisco, CA
+83,Empire Industrial Supplies,support@empireindustrial.com,654 Forge Ave, Pittsburgh, PA
+84,Streamline Packaging,sales@streamlinepackaging.com,175 Wrap Ave, Memphis, TN
+85,Highland Timber,info@highlandtimber.com,420 Lumber Rd, Portland, OR
+86,Metro Medical Supplies,support@metromedical.com,751 Wellness Blvd, Boston, MA
+87,Quality Steel Products,info@qualitysteel.com,564 Alloy St, Cleveland, OH
+88,NextWave Textiles,sales@nextwavetextiles.com,372 Fabric Way, Greensboro, NC
+89,Prime Optics,contact@primeoptics.com,156 Lens Rd, Boulder, CO
+90,Evergreen Steel,support@evergreensteel.com,123 Forge Ln, Pittsburgh, PA
+91,Summit Construction Materials,info@summitconstruction.com,768 Build Rd, Dallas, TX
+92,Eagle Energy Systems,sales@eagleenergy.com,963 Solar Dr, Phoenix, AZ
+93,Sunshine Lighting,support@sunshinelighting.com,852 Beacon Blvd, Las Vegas, NV
+94,Ridgeway Pharmaceuticals,info@ridgewaypharma.com,345 Health St, Boston, MA
+95,Northern Optics,sales@northernoptics.com,674 Lens Blvd, Rochester, NY
+96,Sunlight Solar Systems,support@sunlightsolar.com,852 Solar Blvd, Phoenix, AZ
+97,True North Seafoods,contact@truenorthseafoods.com,245 Pier Rd, Seattle, WA
+98,Silverline Optics,info@silverlineoptics.com,963 Lens Blvd, Boulder, CO
+99,Green Planet Energy,sales@greenplanetenergy.com,654 Solar Way, Phoenix, AZ
+100,Clear Choice Medical Devices,support@clearchoicemedical.com,875 Wellness Ln, Boston, MA
