@@ -13,7 +13,7 @@ if not os.path.exists(output_dir):
 dot = Digraph('UseCaseDiagram', format='png')
 
 # Set global graph attributes
-dot.attr(rankdir='LR', size='10,7')
+dot.attr(rankdir='LR', size='15')
 dot.attr('node', shape='ellipse', style='filled', color='lightblue2', fontname="Helvetica")
 
 # Define the system boundary
