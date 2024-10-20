@@ -1,88 +1,24 @@
 digraph ER_Diagram {
-	rankdir=LR size=14
-	node [shape=rectangle]
-	User [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>User</B></TD></TR>
-<TR><TD ALIGN="LEFT">UserID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">Username</TD></TR>
-<TR><TD ALIGN="LEFT">PasswordHash</TD></TR>
-<TR><TD ALIGN="LEFT">Role</TD></TR>
-<TR><TD ALIGN="LEFT">ContactInfo</TD></TR>
-</TABLE>> shape=plaintext]
-	Product [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>Product</B></TD></TR>
-<TR><TD ALIGN="LEFT">ProductID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">Name</TD></TR>
-<TR><TD ALIGN="LEFT">Description</TD></TR>
-<TR><TD ALIGN="LEFT">CategoryID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">SupplierID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">QuantityInStock</TD></TR>
-<TR><TD ALIGN="LEFT">ReorderLevel</TD></TR>
-<TR><TD ALIGN="LEFT">LocationID (FK)</TD></TR>
-</TABLE>> shape=plaintext]
-	Category [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>Category</B></TD></TR>
-<TR><TD ALIGN="LEFT">CategoryID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">Name</TD></TR>
-<TR><TD ALIGN="LEFT">Description</TD></TR>
-</TABLE>> shape=plaintext]
-	Supplier [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>Supplier</B></TD></TR>
-<TR><TD ALIGN="LEFT">SupplierID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">Name</TD></TR>
-<TR><TD ALIGN="LEFT">ContactInfo</TD></TR>
-<TR><TD ALIGN="LEFT">Address</TD></TR>
-</TABLE>> shape=plaintext]
-	PurchaseOrder [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>PurchaseOrder</B></TD></TR>
-<TR><TD ALIGN="LEFT">OrderID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">SupplierID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">ManagerID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">OrderDate</TD></TR>
-<TR><TD ALIGN="LEFT">Status</TD></TR>
-<TR><TD ALIGN="LEFT">TotalAmount</TD></TR>
-</TABLE>> shape=plaintext]
-	OrderItem [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>OrderItem</B></TD></TR>
-<TR><TD ALIGN="LEFT">OrderItemID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">OrderID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">ProductID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">Quantity</TD></TR>
-<TR><TD ALIGN="LEFT">UnitPrice</TD></TR>
-</TABLE>> shape=plaintext]
-	InventoryMovement [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>InventoryMovement</B></TD></TR>
-<TR><TD ALIGN="LEFT">MovementID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">ProductID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">FromLocationID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">ToLocationID (FK)</TD></TR>
-<TR><TD ALIGN="LEFT">Quantity</TD></TR>
-<TR><TD ALIGN="LEFT">MovementDate</TD></TR>
-<TR><TD ALIGN="LEFT">MovementType</TD></TR>
-<TR><TD ALIGN="LEFT">UserID (FK)</TD></TR>
-</TABLE>> shape=plaintext]
-	Location [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>Location</B></TD></TR>
-<TR><TD ALIGN="LEFT">LocationID (PK)</TD></TR>
-<TR><TD ALIGN="LEFT">Aisle</TD></TR>
-<TR><TD ALIGN="LEFT">Shelf</TD></TR>
-<TR><TD ALIGN="LEFT">Bin</TD></TR>
-</TABLE>> shape=plaintext]
-	ReorderThreshold [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
-<TR><TD BGCOLOR="lightblue"><B>ReorderThreshold</B></TD></TR>
-<TR><TD ALIGN="LEFT">ProductID (PK, FK)</TD></TR>
-<TR><TD ALIGN="LEFT">ThresholdQuantity</TD></TR>
-<TR><TD ALIGN="LEFT">ManagerID (FK)</TD></TR>
-</TABLE>> shape=plaintext]
-	User -> InventoryMovement [label="1:N"]
-	Product -> InventoryMovement [label="1:N"]
-	Supplier -> Product [label="1:N"]
-	Supplier -> PurchaseOrder [label="1:N"]
-	User -> PurchaseOrder [label="1:N"]
-	PurchaseOrder -> OrderItem [label="1:N"]
-	Product -> OrderItem [label="1:N"]
-	Category -> Product [label="1:N"]
-	Location -> Product [label="1:N"]
-	Product -> ReorderThreshold [label="1:1"]
-	User -> ReorderThreshold [label="1:N"]
+	rankdir=LR size=15
+	node [shape=plaintext]
+	User [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>User</B></TD></TR><TR><TD ALIGN="LEFT" PORT="UserID_PK"><b>UserID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Username">Username</TD></TR><TR><TD ALIGN="LEFT" PORT="PasswordHash">PasswordHash</TD></TR><TR><TD ALIGN="LEFT" PORT="Role">Role</TD></TR><TR><TD ALIGN="LEFT" PORT="ContactInfo">ContactInfo</TD></TR></TABLE>>]
+	Product [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>Product</B></TD></TR><TR><TD ALIGN="LEFT" PORT="ProductID_PK"><b>ProductID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Name">Name</TD></TR><TR><TD ALIGN="LEFT" PORT="Description">Description</TD></TR><TR><TD ALIGN="LEFT" PORT="CategoryID_FK"><i>CategoryID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="SupplierID_FK"><i>SupplierID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="QuantityInStock">QuantityInStock</TD></TR><TR><TD ALIGN="LEFT" PORT="ReorderLevel">ReorderLevel</TD></TR><TR><TD ALIGN="LEFT" PORT="LocationID_FK"><i>LocationID</i> (FK)</TD></TR></TABLE>>]
+	Category [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>Category</B></TD></TR><TR><TD ALIGN="LEFT" PORT="CategoryID_PK"><b>CategoryID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Name">Name</TD></TR><TR><TD ALIGN="LEFT" PORT="Description">Description</TD></TR></TABLE>>]
+	Supplier [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>Supplier</B></TD></TR><TR><TD ALIGN="LEFT" PORT="SupplierID_PK"><b>SupplierID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Name">Name</TD></TR><TR><TD ALIGN="LEFT" PORT="ContactInfo">ContactInfo</TD></TR><TR><TD ALIGN="LEFT" PORT="Address">Address</TD></TR></TABLE>>]
+	PurchaseOrder [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>PurchaseOrder</B></TD></TR><TR><TD ALIGN="LEFT" PORT="OrderID_PK"><b>OrderID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="SupplierID_FK"><i>SupplierID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="ManagerID_FK"><i>ManagerID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="OrderDate">OrderDate</TD></TR><TR><TD ALIGN="LEFT" PORT="Status">Status</TD></TR><TR><TD ALIGN="LEFT" PORT="TotalAmount">TotalAmount</TD></TR></TABLE>>]
+	OrderItem [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>OrderItem</B></TD></TR><TR><TD ALIGN="LEFT" PORT="OrderItemID_PK"><b>OrderItemID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="OrderID_FK"><i>OrderID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="ProductID_FK"><i>ProductID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Quantity">Quantity</TD></TR><TR><TD ALIGN="LEFT" PORT="UnitPrice">UnitPrice</TD></TR></TABLE>>]
+	InventoryMovement [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>InventoryMovement</B></TD></TR><TR><TD ALIGN="LEFT" PORT="MovementID_PK"><b>MovementID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="ProductID_FK"><i>ProductID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="FromLocationID_FK"><i>FromLocationID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="ToLocationID_FK"><i>ToLocationID</i> (FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Quantity">Quantity</TD></TR><TR><TD ALIGN="LEFT" PORT="MovementDate">MovementDate</TD></TR><TR><TD ALIGN="LEFT" PORT="MovementType">MovementType</TD></TR><TR><TD ALIGN="LEFT" PORT="UserID_FK"><i>UserID</i> (FK)</TD></TR></TABLE>>]
+	Location [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>Location</B></TD></TR><TR><TD ALIGN="LEFT" PORT="LocationID_PK"><b>LocationID</b> (PK)</TD></TR><TR><TD ALIGN="LEFT" PORT="Aisle">Aisle</TD></TR><TR><TD ALIGN="LEFT" PORT="Shelf">Shelf</TD></TR><TR><TD ALIGN="LEFT" PORT="Bin">Bin</TD></TR></TABLE>>]
+	ReorderThreshold [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="lightblue" ALIGN="CENTER"><B>ReorderThreshold</B></TD></TR><TR><TD ALIGN="LEFT" PORT="ProductID_PK_FK"><b>ProductID</b> (PK, FK)</TD></TR><TR><TD ALIGN="LEFT" PORT="ThresholdQuantity">ThresholdQuantity</TD></TR><TR><TD ALIGN="LEFT" PORT="ManagerID_FK"><i>ManagerID</i> (FK)</TD></TR></TABLE>>]
+	User -> InventoryMovement [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Product -> InventoryMovement [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Supplier -> Product [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Supplier -> PurchaseOrder [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	User -> PurchaseOrder [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	PurchaseOrder -> OrderItem [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Product -> OrderItem [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Category -> Product [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Location -> Product [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
+	Product -> ReorderThreshold [label="1:1" arrowhead=none arrowsize=0 fontsize=10]
+	User -> ReorderThreshold [label="1:N" arrowhead=crow arrowsize=1 fontsize=10]
 }
