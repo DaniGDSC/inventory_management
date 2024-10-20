@@ -1,0 +1,201 @@
+CategoryID,Name,Description
+1,Electronics,Devices and gadgets including smartphones, laptops, and accessories.
+2,Home Appliances,Appliances for household use such as refrigerators, washing machines, and microwaves.
+3,Furniture,Indoor and outdoor furniture including sofas, tables, and chairs.
+4,Clothing,Men's and women's apparel including shirts, pants, and dresses.
+5,Sporting Goods,Equipment and accessories for various sports and outdoor activities.
+6,Toys & Games,Children's toys, board games, and puzzles.
+7,Books,Literature including fiction, non-fiction, and educational materials.
+8,Automotive Parts,Parts and accessories for vehicles.
+9,Beauty Products,Cosmetics, skincare, and haircare products.
+10,Health & Wellness,Health supplements, personal care items, and fitness equipment.
+11,Jewelry & Watches,Rings, necklaces, watches, and other accessories.
+12,Office Supplies,Stationery, printers, and other office essentials.
+13,Pet Supplies,Products for pets including food, toys, and grooming items.
+14,Garden & Outdoors,Gardening tools, outdoor furniture, and accessories.
+15,Kitchenware,Cookware, utensils, and kitchen gadgets.
+16,Musical Instruments,Guitars, pianos, drums, and other musical instruments.
+17,Art Supplies,Materials for painting, drawing, and crafting.
+18,Baby Products,Items for infants and toddlers including diapers and strollers.
+19,Hardware,Tools and hardware for construction and repairs.
+20,Food & Beverages,Packaged foods, snacks, and drinks.
+21,Footwear,Shoes, boots, and sandals for all ages.
+22,Electronics Accessories,Cables, chargers, and other electronic accessories.
+23,Mobile Phones,Smartphones from various brands.
+24,Computers & Tablets,Laptops, desktops, and tablets.
+25,Cameras & Photography,Cameras, lenses, and photography equipment.
+26,Video Games,Consoles, games, and accessories.
+27,Home Decor,Decorative items for home interiors.
+28,Lighting,Lamps, bulbs, and lighting fixtures.
+29,Travel Accessories,Luggage, backpacks, and travel essentials.
+30,Industrial Supplies,Equipment and supplies for industrial use.
+31,Medical Supplies,Medical equipment and supplies.
+32,Stationery,Notebooks, pens, and writing instruments.
+33,Bathroom Accessories,Bathroom fixtures and accessories.
+34,Storage & Organization,Storage solutions for home and office.
+35,Cleaning Supplies,Cleaning agents and tools.
+36,Televisions,LED, OLED, and smart TVs.
+37,Audio Equipment,Speakers, headphones, and audio systems.
+38,Networking Devices,Routers, switches, and network accessories.
+39,Software,Operating systems and application software.
+40,Car Electronics,Car audio, GPS devices, and electronics.
+41,Smart Home Devices,Home automation and smart devices.
+42,Personal Care,Shaving, grooming, and hygiene products.
+43,Outdoor Recreation,Camping gear and outdoor equipment.
+44,Crafts & Sewing,Sewing machines and crafting supplies.
+45,Collectibles,Memorabilia and collectible items.
+46,Office Furniture,Desks, chairs, and office furniture.
+47,Luggage & Bags,Travel bags and luggage.
+48,Event Supplies,Party and event decorations.
+49,Musical Accessories,Instrument accessories and parts.
+50,Computer Components,Processors, motherboards, and components.
+51,Printers & Scanners,Printing and scanning devices.
+52,Surveillance Equipment,Cameras and security systems.
+53,Home Improvement,DIY tools and materials.
+54,Software Services,Subscriptions and digital services.
+55,Industrial Tools,Heavy-duty tools for industrial use.
+56,Safety Equipment,Protective gear and safety equipment.
+57,Heating & Cooling,Air conditioners and heaters.
+58,Plumbing Supplies,Pipes, fittings, and plumbing tools.
+59,Building Materials,Materials for construction projects.
+60,Lawn & Garden,Equipment for lawn care and gardening.
+61,Automotive Tools,Tools for vehicle maintenance.
+62,Batteries & Power,Batteries and power supplies.
+63,Optical Equipment,Telescopes and binoculars.
+64,Accessories,General accessories for various products.
+65,Wireless Devices,Wireless networking and devices.
+66,Computer Peripherals,Keyboards, mice, and other peripherals.
+67,Digital Downloads,Music, movies, and eBooks.
+68,Office Electronics,Projectors and office electronics.
+69,Gift Cards,Prepaid cards and gift vouchers.
+70,Stationery & Gifts,Gift items and stationery.
+71,Software & Apps,Applications and software downloads.
+72,Books & Magazines,Printed books and magazines.
+73,Antiques & Vintage,Antique items and vintage collectibles.
+74,Building Supplies,Materials for building and construction.
+75,Fitness Equipment,Exercise machines and fitness gear.
+76,Hair Care,Shampoos, conditioners, and hair styling products.
+77,Skincare Products,Lotions, creams, and skincare treatments.
+78,Makeup & Cosmetics,Lipsticks, foundations, and makeup kits.
+79,Fragrances,Perfumes and colognes.
+80,Nutrition & Supplements,Vitamins and dietary supplements.
+81,Medical Devices,Home medical equipment.
+82,First Aid Supplies,First aid kits and medical supplies.
+83,Outdoor Furniture,Furniture for patios and gardens.
+84,Bedding & Linens,Bed sheets, pillows, and linens.
+85,Rugs & Carpets,Area rugs and carpets.
+86,Window Treatments,Curtains and blinds.
+87,Art & Wall Decor,Paintings and wall decorations.
+88,Candles & Scents,Scented candles and air fresheners.
+89,Bathroom Fixtures,Baths, showers, and fixtures.
+90,Kitchen Fixtures,Sinks, faucets, and kitchen fixtures.
+91,Fine Art,Original artworks and sculptures.
+92,Kids' Clothing,Clothing for children and infants.
+93,Men's Clothing,Apparel for men.
+94,Women's Clothing,Apparel for women.
+95,Accessories & Bags,Handbags, wallets, and accessories.
+96,Underwear & Lingerie,Intimate apparel.
+97,Sleepwear,Pajamas and nightwear.
+98,Swimwear,Bathing suits and beachwear.
+99,Costumes & Dress Up,Costumes for events and parties.
+100,Specialty Clothing,Uniforms and specialty attire.
+101,Pet Food,Food products for pets.
+102,Aquarium Supplies,Equipment for aquariums.
+103,Bird Supplies,Cages and accessories for birds.
+104,Small Animal Supplies,Items for small pets.
+105,Horse Supplies,Equipment and supplies for horses.
+106,Farm Animal Supplies,Products for farm animals.
+107,Pet Toys,Toys for pets.
+108,Pet Grooming,Grooming tools and products.
+109,Pet Health Products,Medicines and health products for pets.
+110,Automotive Care,Car care products and cleaning.
+111,Motorcycle Parts,Parts for motorcycles.
+112,Boat Parts & Accessories,Marine equipment.
+113,RV Parts & Accessories,Recreational vehicle supplies.
+114,Vehicle Electronics,Electronics for vehicles.
+115,Tools & Equipment,General tools and equipment.
+116,Hardware Fasteners,Nuts, bolts, and fasteners.
+117,Measuring Tools,Measuring instruments.
+118,Welding & Soldering,Welding equipment and supplies.
+119,Laboratory Equipment,Equipment for labs.
+120,Educational Supplies,Learning materials and educational toys.
+121,Science Kits,Science experiment kits.
+122,Office Machines,Fax machines and copiers.
+123,Shipping Supplies,Boxes and packing materials.
+124,Security & Surveillance,Security systems and alarms.
+125,Business & Industrial,General business and industrial products.
+126,Agricultural Equipment,Farming equipment and machinery.
+127,Heavy Machinery,Construction and industrial machinery.
+128,Power Tools,Electric tools and equipment.
+129,Hand Tools,Manual tools for various uses.
+130,Test & Measurement,Testing equipment.
+131,Electrical Equipment,Electrical components and supplies.
+132,Lighting & Lasers,Professional lighting equipment.
+133,Food Service Equipment,Restaurant and catering equipment.
+134,Cleaning Equipment,Commercial cleaning tools.
+135,Pumps & Plumbing,Pumps and plumbing supplies.
+136,HVAC Equipment,Heating, ventilation, and air conditioning.
+137,Medical & Lab Equipment,Professional medical equipment.
+138,Printing Equipment,Commercial printers and equipment.
+139,Manufacturing Equipment,Equipment for manufacturing processes.
+140,Retail & Services,Point of sale and retail equipment.
+141,Hospitality Supplies,Products for hotels and hospitality.
+142,Event & Party Supplies,Items for events and parties.
+143,Religious Products,Religious items and supplies.
+144,Funeral Supplies,Products for funeral services.
+145,Energy Supplies,Solar panels and energy solutions.
+146,Recycling Equipment,Equipment for recycling processes.
+147,Packaging & Labeling,Packaging machines and labels.
+148,Industrial Automation,Automation equipment.
+149,Robotics,Robotic equipment and accessories.
+150,Nanotechnology,Nanotech products.
+151,Aerospace Parts,Parts for aerospace industry.
+152,Defense Equipment,Military and defense equipment.
+153,3D Printing,3D printers and supplies.
+154,Virtual Reality,VR equipment and accessories.
+155,Drones & UAVs,Unmanned aerial vehicles and drones.
+156,Artificial Intelligence,AI software and hardware.
+157,Blockchain Technology,Blockchain platforms and solutions.
+158,Biotechnology,Biotech equipment and products.
+159,Environmental Technology,Green tech and environmental products.
+160,Renewable Energy,Solar, wind, and renewable energy products.
+161,Space Technology,Equipment related to space exploration.
+162,Smart Wearables,Smart watches and wearable devices.
+163,Mobile Accessories,Cases, screen protectors, and accessories.
+164,Cloud Services,Cloud computing solutions.
+165,Data Storage,Hard drives and storage devices.
+166,Cybersecurity,Security software and hardware.
+167,Networking Solutions,Enterprise networking products.
+168,Enterprise Software,Software solutions for businesses.
+169,Telecommunications,Telecom equipment and devices.
+170,Financial Services,Financial software and tools.
+171,Consulting Services,Professional consulting services.
+172,Legal Services,Legal software and resources.
+173,Real Estate,Property listings and real estate services.
+174,Education Services,Online courses and educational services.
+175,Healthcare Services,Healthcare solutions and services.
+176,Travel Services,Travel packages and services.
+177,Entertainment Services,Streaming services and entertainment.
+178,Advertising Services,Marketing and advertising solutions.
+179,Logistics & Shipping,Logistics services and shipping solutions.
+180,Human Resources,HR software and services.
+181,Project Management,Project management tools.
+182,Customer Service,Customer support solutions.
+183,Data Analytics,Analytics software and tools.
+184,Artificial Intelligence Services,AI solutions for businesses.
+185,Internet of Things,IoT devices and platforms.
+186,Automation Services,Automation solutions for industries.
+187,Cloud Computing,Cloud infrastructure services.
+188,Cognitive Computing,Cognitive computing solutions.
+189,Edge Computing,Edge computing devices and services.
+190,Quantum Computing,Quantum computers and research.
+191,Blockchain Services,Blockchain as a service.
+192,Augmented Reality,AR devices and software.
+193,Big Data Solutions,Big data analytics tools.
+194,Digital Transformation,Digitalization services.
+195,Industry 4.0,Advanced manufacturing solutions.
+196,SaaS Solutions,Software as a service products.
+197,PaaS Solutions,Platform as a service offerings.
+198,IaaS Solutions,Infrastructure as a service.
+199,Managed Services,Managed IT services.
+200,Professional Services,Consulting and professional services.
