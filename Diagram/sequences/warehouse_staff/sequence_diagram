@@ -1,0 +1,13 @@
+digraph SequenceDiagram {
+	rankdir=TB size=15
+	WS [label=WarehouseStaff]
+	IS [label=InventorySystem]
+	DB [label=Database]
+	WS -> IS [label="Log in"]
+	WS -> IS [label="Select \"Check-In Inventory\""]
+	IS -> WS [label="Prompt for item details"]
+	WS -> IS [label="Submit item details (Product, Quantity)"]
+	IS -> DB [label="Update inventory"]
+	DB -> IS [label="Inventory updated"]
+	IS -> WS [label="Confirmation of inventory update"]
+}

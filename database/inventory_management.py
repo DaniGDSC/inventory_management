@@ -158,7 +158,7 @@ class ReorderThreshold(Base):
 # URL-encode the password
 password = urllib.parse.quote_plus('Gdsc@12012004')
 
-engine = create_engine(f'mysql+pymysql://root:{password}@localhost:3306/inventory_management', echo=True)
+engine = create_engine(f'mysql+pymysql://root:{'Gdsc@12012004'}@localhost:3306/inventory_management', echo=True)
 
 Base.metadata.create_all(engine)
 
