@@ -1,0 +1,14 @@
+digraph supplier_diagram {
+	rankdir=TB size=15
+	S [label=Supplier shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS [label="Warehouse Staff" shape=rect]
+	S -> IS [label="Log in"]
+	S -> IS [label="Select \"Update Order Status\""]
+	IS -> S [label="Prompt for order and status details"]
+	S -> IS [label="Submit order status update"]
+	IS -> DB [label="Update order status in database"]
+	DB -> IS [label="Order status updated"]
+	IS -> S [label="Confirmation of status update"]
+}

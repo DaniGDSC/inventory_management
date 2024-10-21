@@ -1,0 +1,12 @@
+digraph supplier_diagram {
+	rankdir=TB size=15
+	S [label=Supplier shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS [label="Warehouse Staff" shape=rect]
+	S -> IS [label="Log in"]
+	S -> IS [label="Select \"Communicate with Warehouse\""]
+	IS -> WS [label="Send communication to warehouse staff"]
+	WS -> IS [label="Respond to supplier"]
+	IS -> S [label="Display warehouse staff response"]
+}

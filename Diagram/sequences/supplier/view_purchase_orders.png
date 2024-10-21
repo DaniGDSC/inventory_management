@@ -1,0 +1,12 @@
+digraph supplier_diagram {
+	rankdir=TB size=15
+	S [label=Supplier shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS [label="Warehouse Staff" shape=rect]
+	S -> IS [label="Log in"]
+	S -> IS [label="Select \"View Purchase Orders\""]
+	IS -> DB [label="Fetch outstanding orders"]
+	DB -> IS [label="Return purchase order details"]
+	IS -> S [label="Display purchase orders"]
+}
