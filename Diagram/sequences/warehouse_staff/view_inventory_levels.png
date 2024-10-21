@@ -1,0 +1,11 @@
+digraph staff_diagram {
+	rankdir=TB size="8,5"
+	WS [label="Warehouse Staff" shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS -> IS [label="Log in"]
+	WS -> IS [label="Select \"View Inventory Levels\""]
+	IS -> DB [label="Fetch inventory levels"]
+	DB -> IS [label="Return stock levels"]
+	IS -> WS [label="Display inventory levels"]
+}

@@ -1,8 +1,8 @@
-digraph SequenceDiagram {
-	rankdir=TB size=15
-	WS [label=WarehouseStaff]
-	IS [label=InventorySystem]
-	DB [label=Database]
+digraph staff_diagram {
+	rankdir=TB size="8,5"
+	WS [label="Warehouse Staff" shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
 	WS -> IS [label="Log in"]
 	WS -> IS [label="Select \"Check-In Inventory\""]
 	IS -> WS [label="Prompt for item details"]

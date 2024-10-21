@@ -1,0 +1,13 @@
+digraph staff_diagram {
+	rankdir=TB size="8,5"
+	WS [label="Warehouse Staff" shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS -> IS [label="Log in"]
+	WS -> IS [label="Select \"Transfer Inventory\""]
+	IS -> WS [label="Prompt for product details and locations"]
+	WS -> IS [label="Submit transfer details"]
+	IS -> DB [label="Update product location in database"]
+	DB -> IS [label="Location updated"]
+	IS -> WS [label="Confirmation of inventory transfer"]
+}

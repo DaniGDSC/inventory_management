@@ -1,0 +1,13 @@
+digraph staff_diagram {
+	rankdir=TB size="8,5"
+	WS [label="Warehouse Staff" shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	WS -> IS [label="Log in"]
+	WS -> IS [label="Select \"Receive Returned Items\""]
+	IS -> WS [label="Prompt for return details"]
+	WS -> IS [label="Submit return details"]
+	IS -> DB [label="Update inventory"]
+	DB -> IS [label="Inventory updated"]
+	IS -> WS [label="Confirmation of return processing"]
+}
