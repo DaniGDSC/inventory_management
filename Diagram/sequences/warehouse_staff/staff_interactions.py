@@ -10,7 +10,7 @@ def staff_sequence_diagram(filename, interactions):
     
     # Create a new directed graph (sequence diagram)
     dot = Digraph('staff_diagram', format='png')
-    dot.attr(rankdir='TB', size='8,5')
+    dot.attr(rankdir='TB', size='15')
     
     # Define actors and participants
     dot.node('WS', 'Warehouse Staff', shape='rect')

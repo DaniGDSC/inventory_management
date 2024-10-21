@@ -1,0 +1,14 @@
+digraph manager_diagram {
+	rankdir=TB size=15
+	M [label=Manager shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	S [label=Supplier shape=rect]
+	M -> IS [label="Log in"]
+	M -> IS [label="Select \"Set Reordering Thresholds\""]
+	IS -> M [label="Prompt for product details and threshold quantity"]
+	M -> IS [label="Submit threshold details"]
+	IS -> DB [label="Update product reordering thresholds in database"]
+	DB -> IS [label="Reordering threshold updated"]
+	IS -> M [label="Confirmation of threshold update"]
+}

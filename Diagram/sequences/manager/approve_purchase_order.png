@@ -1,0 +1,15 @@
+digraph manager_diagram {
+	rankdir=TB size=15
+	M [label=Manager shape=rect]
+	IS [label="Inventory System" shape=rect]
+	DB [label=Database shape=rect]
+	S [label=Supplier shape=rect]
+	M -> IS [label="Log in"]
+	M -> IS [label="View pending purchase orders"]
+	IS -> DB [label="Fetch pending orders"]
+	DB -> IS [label="Return pending orders"]
+	M -> IS [label="Approve purchase order"]
+	IS -> DB [label="Update purchase order status"]
+	DB -> IS [label="Status updated"]
+	IS -> S [label="Notify supplier of approval"]
+}
